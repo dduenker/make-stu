@@ -37,7 +37,7 @@ use_local_stu() {
 }
 
 echo "checking path for stu"
-if ! which stui>/dev/null ; then
+if ! which stu>/dev/null ; then
 	echo " -> not found"
 	use_local_stu
 else
