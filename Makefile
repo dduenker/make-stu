@@ -1,4 +1,11 @@
-# This makefile is only used in case you are too lazy to run ./stu or install stu yourself
+# This makefile can be dropped into your stu-dependent project, to provide
+# a simple way to create a local stu build, in case the person using your
+# project does not have stu installed.
+#
+# Visit https://github.com/dduenker/make-stu for the newest version of this file.
+#
+# If you want to know more about stu, visit https://github.com/kunegis/stu
+#
 all: main.stu stu.sh 
 	@./stu.sh
 
